@@ -12,11 +12,28 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".ui.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.PortalActivity"
+            android:label="@string/title_activity_portal"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".ui.AppSettingActivity"
+            android:label="@string/title_activity_app_setting"
+            android:screenOrientation="landscape">
         </activity>
     </application>
 
